@@ -12,7 +12,7 @@ function Navbar() {
   // console.log(cartItems);
   return (
     <div >
-      <div className="flex shadow-md justify-between bg-orange-200">
+      <div className="flex shadow-md justify-between bg-purple-300">
         <Link to="/">
           {" "}
           <img className="h-16 font-bold w-full m-2 mx-3 navlogo" src={Logo} alt="logo" />
