@@ -20,22 +20,22 @@ function Navbar() {
         <div className="mt-6 mr-4 items-center">
           <ul className="flex space-x-4 p-2">
             <Link to="/">
-              <li>Home</li>
+              <li className=" font-bold">Home</li>
             </Link>
             <Link to="/about">
-              <li>About</li>
+              <li className=" font-bold">About</li>
             </Link>
             <Link to="/contact">
-              <li>Contact Us</li>
+              <li className=" font-bold">Contact Us</li>
             </Link>
             <Link to="/instamart">
-              <li>Instamart</li>
+              <li className=" font-bold">Instamart</li>
             </Link>
             <Link to="/help">
-              <li>Help</li>
+              <li className=" font-bold">Help</li>
             </Link>
             <Link to="/cart">
-              <li>
+              <li className=" font-bold">
                 <i className="fa fa-shopping-cart"></i> Cart -{" "}
                 {cartItems.length}
               </li>
@@ -46,14 +46,14 @@ function Navbar() {
           
        {isLoggedIn ? (
         <button
-          className="text-xs font-medium h-8 w-16  center shadow-md px-2 py-2 outline-none m-2 rounded border border-black hover:border-gray-500 transition-all duration-200 ease-in-out text-gray-700 cursor-pointer"
+          className="text-xs font-bold h-8 w-16  center shadow-md px-2 py-2 outline-none m-2 rounded border border-black hover:border-gray-500 transition-all duration-200 ease-in-out text-gray-700 cursor-pointer"
           onClick={() => setisLoggedIn(false)}
         >
           Login <b>⇦</b>
         </button>
       ) : (
         <button
-          className="text-xs font-medium h-8 w-16  center shadow-md px-2 py-2 outline-none m-2  rounded border border-black hover:border-gray-500 transition-all duration-200 ease-in-out text-gray-700 cursor-pointer"
+          className="text-xs font-bold h-8 w-16  center shadow-md px-2 py-2 outline-none m-2  rounded border border-black hover:border-gray-500 transition-all duration-200 ease-in-out text-gray-700 cursor-pointer"
           onClick={() => setisLoggedIn(true)}
         >
           Logout
