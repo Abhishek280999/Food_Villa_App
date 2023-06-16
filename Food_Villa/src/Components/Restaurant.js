@@ -65,7 +65,7 @@ function Restaurant() {
   return (
     <>
       <Nav />
-      <div className="search-container  p-3 text-center  w-full bg-orange-50 ">
+      <div className="search-container  p-3 text-center  w-full bg-purple-100 ">
         <input
           data-testid="search-input"
           type="text"
@@ -79,7 +79,7 @@ function Restaurant() {
         />
         <button
           data-testid="search-btn"
-          className="p-2 m-2 bg-orange-200 hover:bg-gray-100 hover:text-black text-white rounded-md"
+          className="p-2 m-2 bg-purple-400 hover:bg-gray-100 hover:text-black text-white rounded-md"
           onClick={() => {
             // user click on button searchData function is called
             searchData(searchText, allRestaurants);
@@ -89,7 +89,7 @@ function Restaurant() {
         </button>
         <button
           type="button"
-          className="p-2 m-2 bg-orange-200 hover:bg-gray-100 hover:text-black text-white rounded-md"
+          className="p-2 m-2 bg-purple-400 hover:bg-gray-100 hover:text-black text-white rounded-md"
           onClick={() => {
             // filter logic is
             const filter_resList = filteredRestaurants.filter(
