@@ -1,5 +1,12 @@
 # Food_Villa_App
 
+Tech 
+HTML
+Tailwind Css
+Javascript
+React js
+Redux Tool kit
+Slice
 
 Online Food App
 ![Screenshot (43)](https://github.com/Abhishek280999/Food_Villa_App/assets/117111036/c64385e6-e69d-4d83-b85e-b93ff1a6fb07)
@@ -25,3 +32,4 @@ Menu Item Page
 
 Cart Page
 
+![Screenshot (49)](https://github.com/Abhishek280999/Food_Villa_App/assets/117111036/95c5f34a-51c4-4938-96f2-49a05b8edcf8)
