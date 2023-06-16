@@ -13,3 +13,7 @@ Contact page
 
 Instamart page
 ![Screenshot (46)](https://github.com/Abhishek280999/Food_Villa_App/assets/117111036/e5759e63-a694-41bc-8c0b-f2389162bdd9)
+
+Help page
+
+![Screenshot (47)](https://github.com/Abhishek280999/Food_Villa_App/assets/117111036/0da7b07d-091f-44b2-8907-5b896ebbabf5)
